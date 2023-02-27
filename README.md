@@ -40,6 +40,7 @@ It's the back-end for the web app created with React, for the front-end develope
 - Routes & request params;
 - Middlewares;
 - JWT authentication;
+- Files manipulation;
 
 </div>
 <div id="Technologies">
@@ -47,7 +48,7 @@ It's the back-end for the web app created with React, for the front-end develope
 ## Technologies:
 
 - Languages: `Javascript`
-- Libraries: `bcryptjs` `express` `express-async-errors` `jsonwebtoken` `knex` `sqlite` `sqlite3` `multer`
+- Libraries: `bcryptjs` `express` `express-async-errors` `jsonwebtoken` `knex` `sqlite` `sqlite3` `multer` `cors`
 - Version control: `Git & Github`
 
 </div>
@@ -56,17 +57,28 @@ It's the back-end for the web app created with React, for the front-end develope
 ## How to use:
 
 #### Clone this repository
+
+```bash
 $ git clone <https://github.com/Jcassio-dev/API_films-ROCKETMOVIES.git>
+```
 
 #### Access project folder in terminal/cmd
+
+```bash
 $ cd /API_films-ROCKETMOVIES
-  
+```
+
 #### Install the dependencies
+
+```bash
 $ npm install
+```
 
 #### Run the application in development mode
-$ npm run dev
 
+```bash
+$ npm run dev
+```
 #### The server will start on port:3333 - go to <http://localhost:3333> 
 
 </div>
