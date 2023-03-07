@@ -62,6 +62,7 @@ class NotesController {
         }
         else{
             notes = await knex("movie_notes")
+            .where({user_id})
             .whereLike("title", `%${title}%`)
             .orderBy("title")
         }
