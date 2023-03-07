@@ -16,7 +16,7 @@ class UsersController{
 
         await database.run("INSERT INTO users(name, email, password) VALUES (?, ?, ?)", [name, email, hashedPassword]);
 
-        response.status(201).json(`Usuário Cadastrado!`)
+        return response.status(201).json(`Usuário Cadastrado!`)
     }
     async update(request, response){
         const {name, email, password, old_password} = request.body;
