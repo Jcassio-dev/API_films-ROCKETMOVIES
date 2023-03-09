@@ -14,7 +14,7 @@ const MULTER = {
             const fileName = `${fileHash}-${file.originalname}`
 
             return callback(null, fileName)
-        }
+        },
     })
 }
 
