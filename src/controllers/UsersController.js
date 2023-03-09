@@ -42,9 +42,6 @@ class UsersController{
             throw new AppError("Você precisa informar a senha antiga!");
         }
 
-        if(password.length < 8){
-            throw new AppError("A senha precisa ter no mínimo 8 digitos")
-        }
 
         if(password && old_password){
             const checkOldPassword = await compare(old_password, user.password);
