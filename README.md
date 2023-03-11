@@ -16,7 +16,7 @@ Explorer - Stage 08 - Back-End for the RocketNotes Web App
 ## Description
 Node project developed for the Stage 08 challenge of the Rocketseat bootcamp.
 
-It's the back-end for the web app created with React, for the front-end developed in Stage 09:
+It's the back-end for the web app created with Node, for the front-end developed in Stage 09:
 
 - https://github.com/Jcassio-dev/RocketMovies-FrontEnd
 
