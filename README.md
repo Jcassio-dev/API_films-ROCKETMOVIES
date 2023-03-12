@@ -59,7 +59,7 @@ It's the back-end for the web app created with React, for the front-end develope
 #### Clone this repository
 
 ```bash
-$ git clone <https://github.com/Jcassio-dev/API_films-ROCKETMOVIES.git>
+$ git clone https://github.com/Jcassio-dev/API_films-ROCKETMOVIES.git
 ```
 
 #### Access project folder in terminal/cmd
