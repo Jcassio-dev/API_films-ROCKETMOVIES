@@ -5,12 +5,13 @@ class NotesController {
         const {title, description, rating, tags} = request.body;
         const user_id = request.user.id;
 
-        const note_id = await knex("movie_notes").insert({
+        const [note_id] = await knex("movie_notes").insert({
             title,
             description,
             rating,
             user_id
         });
+        if(tags.length > 0){
         const tagsInsert = tags.map(name => {
             return{
                 note_id,
@@ -18,7 +19,10 @@ class NotesController {
                 name
             }
         });
+
         await knex("movie_tags").insert(tagsInsert);
+
+        }
 
         return response.json()
     }
