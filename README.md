@@ -48,7 +48,7 @@ It's the back-end for the web app created with React, for the front-end develope
 ## Technologies:
 
 - Languages: `Javascript`
-- Libraries: `bcryptjs` `express` `express-async-errors` `jsonwebtoken` `knex` `sqlite` `sqlite3` `multer` `cors`
+- Libraries: `bcryptjs` `express` `express-async-errors` `jsonwebtoken` `knex` `sqlite` `sqlite3` `multer` `cors` `pm2`
 - Version control: `Git & Github`
 
 </div>
